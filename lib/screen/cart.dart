@@ -125,7 +125,7 @@ class Cart extends StatelessWidget {
                                         child: Text(
                                           '\$${value.productList[i].price.toString()}',
                                           style: TextStyle(
-                                            fontSize: 25,
+                                            fontSize: 20,
                                             color: Colors.blue,
                                           ),
                                         ),
@@ -176,7 +176,7 @@ class Cart extends StatelessWidget {
                         'Total',
                         style: TextStyle(
                           color: Colors.blue,
-                          fontSize: 30,
+                          fontSize: 25,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -188,7 +188,7 @@ class Cart extends StatelessWidget {
                         '\$${value.pric.sum.toString()}',
                         style: TextStyle(
                           color: Colors.blue,
-                          fontSize: 30,
+                          fontSize: 25,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -212,7 +212,7 @@ class Cart extends StatelessWidget {
                           child: Text(
                         'CheckOut',
                         style: TextStyle(
-                          fontSize: 30.0,
+                          fontSize: 20.0,
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
                         ),

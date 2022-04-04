@@ -25,16 +25,18 @@ class ProductItem extends StatelessWidget {
         color: Colors.white,
       ),
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Container(
-            margin: EdgeInsets.only(bottom: 10.0),
-            padding: EdgeInsets.all(15.0),
-            child: Center(
-              child: Image.network(
-                pImage,
-                height: 100,
-                width: 100,
+          Expanded(
+            child: Container(
+              padding: EdgeInsets.all(5.0),
+              child: Center(
+                child: Image.network(
+                  pImage,
+                  height: 80,
+                  width: 60,
+                  fit: BoxFit.fill
+                ),
               ),
             ),
           ),

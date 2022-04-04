@@ -11,7 +11,7 @@ class GridItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(8.0),
+      padding: EdgeInsets.all(15.0),
       decoration: BoxDecoration(
         shape: BoxShape.rectangle,
         color: Colors.white,
@@ -20,11 +20,11 @@ class GridItem extends StatelessWidget {
         child: Column(
           children: [
             Container(
-              padding: EdgeInsets.all(10.0),
+              padding: EdgeInsets.all(7.0),
               child: Icon(
                 itemIcon,
                 color: Colors.orange,
-                size: 50,
+                size: 30,
               ),
             ),
             Container(
@@ -32,7 +32,7 @@ class GridItem extends StatelessWidget {
                 text,
                 style: TextStyle(
                   fontWeight: FontWeight.w500,
-  
+                  fontSize: 17,
                 ),
               ),
             ),

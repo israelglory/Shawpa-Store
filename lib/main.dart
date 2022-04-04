@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shawpa/model/item_notifier.dart';
-import 'package:shawpa/model/service.dart';
 import 'package:shawpa/screen/article.dart';
 import 'package:shawpa/screen/cart.dart';
 import 'package:shawpa/screen/home.dart';

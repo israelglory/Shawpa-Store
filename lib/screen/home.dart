@@ -128,7 +128,7 @@ class _HomePageState extends State<HomePage> {
                   GridItem(Icons.chair, 'Funiture'),
                   GridItem(Icons.electrical_services, 'Electricity'),
                   GridItem(Icons.card_giftcard, 'Promo'),
-                  GridItem(Icons.car_repair, 'Automootive'),
+                  GridItem(Icons.car_repair, 'Automotive'),
                   GridItem(Icons.account_balance_wallet, 'My Wallet'),
                   GridItem(Icons.phone_android, 'Gadget'),
                   GridItem(Icons.travel_explore, 'Travel'),
